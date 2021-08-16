@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" onkeydown="pressedSomeKey(event)">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="calculator.css">
+      <title>Calculator</title>
+</head>
+
+<body>
+      <div id="container">
+            <div id="display">
+                  <div id="values"></div>
+            </div>
+            <div id="delete">
+                  <div class="clear" id="allClear">AC</div>
+                  <div class="clear" id="clear">C</div>
+            </div>
+            <div id="numbers">
+                  <div class="number">1</div>
+                  <div class="number">2</div>
+                  <div class="number">3</div>
+                  <div class="number">4</div>
+                  <div class="number">5</div>
+                  <div class="number">6</div>
+                  <div class="number">7</div>
+                  <div class="number">8</div>
+                  <div class="number">9</div>
+                  <div class="number">0</div>
+                  <div class="number" id="decimal">.</div>
+                  <div class="operator" id="equal">=</div>
+            </div>
+            <div id="operators">
+                  <div class="operator" id="percent">%</div>
+                  <div class="operator" id="plus">+</div>
+                  <div class="operator" id="minus">-</div>
+                  <div class="operator" id="multiply">*</div>
+                  <div class="operator" id="divide">/</div>
+            </div>
+      </div>
+</body>
+<script src="calculator.js"></script>
+</html>
