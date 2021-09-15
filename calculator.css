@@ -10,12 +10,11 @@ body{
       justify-content: center;
       font-family: 'Oxygen', sans-serif;
       font-size: 2rem;
-      background-color: #F2F2F2;
+      background-color: #16262E;
       color: whitesmoke;
 }
 #container {
-      position: absolute;
-      top: 50px;
+      position: relative;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -24,6 +23,7 @@ body{
       width: 350px;
       height: 612px;
       border-radius: 8px;
+      margin: 1.5 rem 0;
 }
 
 #container #display {
@@ -37,7 +37,7 @@ body{
       border: 1px solid #03B805;
       margin-top: 2rem;
       border-radius: 5px;
-      color: black;
+      color: aliceblue;
       padding: 0.5rem;
       overflow: hidden;
 }
@@ -130,7 +130,7 @@ body{
 #container .clear:hover , #container .number:hover , #container .operator:hover {
       border: 2px solid black;
       /* transform: translateY(-2px); */
-      box-shadow: 0px 5px 8px 1px grey;
+      box-shadow: 0px 10px 8px -1px #161616;
 }
 
 #container .clear , #container .number , #container .operator {
