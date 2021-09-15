@@ -12,6 +12,7 @@ body{
       font-size: 2rem;
       background-color: #16262E;
       color: whitesmoke;
+      height: 100vh;
 }
 #container {
       position: relative;
