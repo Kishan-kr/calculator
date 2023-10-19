@@ -1,37 +1,40 @@
-## Welcome to GitHub Pages
+# Basic Calculator - A Web App
 
-You can use the [editor on GitHub](https://github.com/Kishan-kr/calculator.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Overview
 
-### Markdown
+The Basic Calculator is a web application designed to provide a simple yet fully functional calculator. It is built using HTML, CSS, and vanilla JavaScript, allowing users to perform basic arithmetic calculations with ease.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Features
 
-```markdown
-Syntax highlighted code block
+- **Arithmetic Operations**: Perform addition, subtraction, multiplication, division, and percentage operations.
+- **Decimal Support**: Calculate numbers with decimal points.
+- **Clear Functionality**: Clear the input for a fresh calculation.
+- **Error Handling**: Handle common errors, such as dividing by zero.
+- **Responsive Design**: The calculator is designed to work on both desktop and mobile devices.
 
-# Header 1
-## Header 2
-### Header 3
+## Technologies Used
 
-- Bulleted
-- List
+- **HTML**: The structure of the calculator is defined using HTML.
+- **CSS**: CSS is used for styling the calculator interface.
+- **JavaScript**: JavaScript powers the calculator's functionality.
 
-1. Numbered
-2. List
+## Getting Started
 
-**Bold** and _Italic_ and `Code` text
+To start using the Basic Calculator:
 
-[Link](url) and ![Image](src)
-```
+1. Clone this repository to your local machine:
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+   ```bash
+   git clone https://github.com/Kishan-kr/calculator.git
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd calculator
+    ```
+3. Open the index.html file in your web browser to start using the calculator.
 
-### Jekyll Themes
+## Usage
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Kishan-kr/calculator.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+1. Enter numbers and perform calculations using the calculator's buttons.
+2. Use the clear button (labeled "AC") to reset the input for a new calculation.
